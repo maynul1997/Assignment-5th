@@ -1,0 +1,43 @@
+.food{
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+}
+#foods{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+#firstImg{
+    width: 100%;
+}
+#ingradience img{
+    width: 100%;
+}
+.body-background{
+    background-color: aquamarine;
+}
+.first-div{
+    text-align: center;
+    padding: 30px;
+}
+.food{
+    background-color: beige;
+}
+.list-item{
+    text-align: left;
+}
+.only-button{
+    background-color: lightblue;
+    height: 35px;
+    width: 70px;
+    border-radius: 10px;
+}
+#dish-catagory{
+    height: 37px;
+    width: 300px;
+    border-radius: 10px;
+}
